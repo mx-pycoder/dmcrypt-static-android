@@ -2,7 +2,7 @@
 
 set -eu
 
-export PATH=~/android/toolchain/bin/:$PATH
+export PATH=$HOME/opt/toolchain_arm_android-17/bin/:$PATH
 export CC=arm-linux-androideabi-gcc
 
 export ac_cv_func_malloc_0_nonnull=yes
